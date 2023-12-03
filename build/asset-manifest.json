@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1f419073.css",
+    "main.js": "/portfolio/static/js/main.12b945d4.js",
+    "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/about.png": "/portfolio/static/media/about.5a57a9c9efc1405ae12b.png",
+    "static/media/home-main.png": "/portfolio/static/media/home-main.55910786f88905342991.png",
+    "static/media/AI_ML_DL.jpg": "/portfolio/static/media/AI_ML_DL.e40cc04fa39d19efa256.jpg",
+    "static/media/Reinforcement.png": "/portfolio/static/media/Reinforcement.efc4c6c4ae9d2faf4a19.png",
+    "static/media/shyam.jpg": "/portfolio/static/media/shyam.bf9202c07d7843203522.jpg",
+    "static/media/GAN.jpg": "/portfolio/static/media/GAN.01676a327c0c66893ea7.jpg",
+    "static/media/Shyam_Patel_2.0_resume.pdf": "/portfolio/static/media/Shyam_Patel_2.0_resume.5d2bdaaa116d1b83c30f.pdf",
+    "static/media/Classification_vs_Clustering.jpg": "/portfolio/static/media/Classification_vs_Clustering.dc10c9c78efa047b55ce.jpg",
+    "static/media/Imagen.png": "/portfolio/static/media/Imagen.2b68cbb4a15830889933.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.7ffa1b36639689697dc6.png",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.1f419073.css.map": "/portfolio/static/css/main.1f419073.css.map",
+    "main.12b945d4.js.map": "/portfolio/static/js/main.12b945d4.js.map",
+    "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f419073.css",
+    "static/js/main.12b945d4.js"
+  ]
+}
