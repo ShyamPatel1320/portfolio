@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import IMAGEN from "../../Assets/Projects/Imagen.png";
 import Reinforcement from "../../Assets/Projects/Reinforcement.png";
 import Classification_vs_Clustering from "../../Assets/Projects/Classification_vs_Clustering.jpg";
+import ensemble_learing from "../../Assets/Projects/ensemble_learning.png"
 import GAN from "../../Assets/Projects/GAN.jpg";
 import AI_ML_DL from "../../Assets/Projects/AI_ML_DL.jpg";
 
@@ -38,6 +39,17 @@ function Projects() {
               title="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
               // description="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
               ghLink="https://shyampatel1320.medium.com/machine-learning-essentials-the-ultimate-guide-to-classification-and-clustering-b09e6e1a7740"
+              // demoLink="https://blogs.soumya-jit.tech/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ensemble_learing}
+              isBlog={true}
+              title="Ensemble Learning : Enhance Your Machine Learning Models Performance to the Next Level"
+              // description="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
+              ghLink="https://medium.com/@shyampatel1320/ensemble-learning-enhance-your-models-performance-to-the-next-level-288937958b00"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
