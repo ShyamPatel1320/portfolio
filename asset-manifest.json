@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.774b1a88.css",
-    "main.js": "/portfolio/static/js/main.64c83b77.js",
+    "main.js": "/portfolio/static/js/main.5af61708.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.png": "/portfolio/static/media/about.5a57a9c9efc1405ae12b.png",
     "static/media/home-main.png": "/portfolio/static/media/home-main.55910786f88905342991.png",
+    "static/media/Shyam_Patel_AIML.pdf": "/portfolio/static/media/Shyam_Patel_AIML.fc35710adc3fdde0f2b2.pdf",
     "static/media/AI_ML_DL.jpg": "/portfolio/static/media/AI_ML_DL.e40cc04fa39d19efa256.jpg",
     "static/media/Reinforcement.png": "/portfolio/static/media/Reinforcement.efc4c6c4ae9d2faf4a19.png",
-    "static/media/Shyam_Patel.pdf": "/portfolio/static/media/Shyam_Patel.3318570ededd7ab1de55.pdf",
     "static/media/shyam.jpg": "/portfolio/static/media/shyam.bf9202c07d7843203522.jpg",
     "static/media/GAN.jpg": "/portfolio/static/media/GAN.01676a327c0c66893ea7.jpg",
     "static/media/shyam_new.jpg": "/portfolio/static/media/shyam_new.2e1a6ca9a6f6460db1bb.jpg",
@@ -20,12 +20,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.774b1a88.css.map": "/portfolio/static/css/main.774b1a88.css.map",
-    "main.64c83b77.js.map": "/portfolio/static/js/main.64c83b77.js.map",
+    "main.5af61708.js.map": "/portfolio/static/js/main.5af61708.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.774b1a88.css",
-    "static/js/main.64c83b77.js"
+    "static/js/main.5af61708.js"
   ]
 }
