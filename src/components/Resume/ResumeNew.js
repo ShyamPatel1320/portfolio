@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Shyam_Patel_3.0_resume.pdf";
+import pdf from "../../Assets/Shyam_Patel_AIML_resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -10,15 +10,25 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [numPages, setNumPages] = useState(0);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
 
+  function onDocumentLoadSuccess({ numPages: loadedPages }) {
+    setNumPages(loadedPages);
+  }
+
   return (
     <div>
       <Container fluid className="resume-section">
         <Particle />
+        <div className="resume-intro">
+          <p className="projects-kicker">Curriculum vitae</p>
+          <h1>My <span className="purple">resume</span></h1>
+          <p>AI/ML Engineer · 3.5+ years of experience · GenAI, RAG and cloud solutions.</p>
+        </div>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -32,8 +42,10 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex flex-column align-items-center">
+            {Array.from({ length: numPages }, (_, index) => (
+              <Page key={`resume-page-${index + 1}`} pageNumber={index + 1} scale={width > 786 ? 1.35 : 0.55} className="resume-page" />
+            ))}
           </Document>
         </Row>
 

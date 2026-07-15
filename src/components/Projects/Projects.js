@@ -1,105 +1,99 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import IMAGEN from "../../Assets/Projects/Imagen.png";
-import Reinforcement from "../../Assets/Projects/Reinforcement.png";
-import Classification_vs_Clustering from "../../Assets/Projects/Classification_vs_Clustering.jpg";
-import ensemble_learing from "../../Assets/Projects/ensemble_learning.png"
-import GAN from "../../Assets/Projects/GAN.jpg";
-import AI_ML_DL from "../../Assets/Projects/AI_ML_DL.jpg";
+import { BsArrowUpRight, BsCheck2Circle } from "react-icons/bs";
+import callGenieImage from "../../Assets/case-studies/call-genie-dashboard.png";
+import mintImage from "../../Assets/case-studies/mint-dashboard.png";
+import mcpIntegrationImage from "../../Assets/case-studies/mcp-integration-dashboard.png";
+import interviewImage from "../../Assets/case-studies/ai-interview-dashboard.png";
+
+const projects = [
+  {
+    title: "Call Genie",
+    eyebrow: "AI-powered call intelligence",
+    image: callGenieImage,
+    summary:
+      "An end-to-end AI pipeline that transforms customer-call recordings into searchable, actionable intelligence.",
+    capabilities: [
+      "Speaker-labelled transcription and automated PII redaction",
+      "LLM analysis for sentiment, quality, key issues and resolution status",
+      "Live operations dashboard and RAG chatbot for plain-English queries",
+    ],
+    impact: "100% call coverage · 60–80% support-cost reduction · 24/7 assistance",
+  },
+  {
+    title: "MINT",
+    eyebrow: "GenAI media intelligence",
+    image: mintImage,
+    summary:
+      "A centralized media monitoring and journalist-query platform for proactive brand intelligence across every channel.",
+    capabilities: [
+      "Real-time ingest across print, digital, TV, social and vernacular media",
+      "AI summaries, sentiment, entities, impact scoring and crisis alerts",
+      "Structured query lifecycle management with AI-assisted response drafts",
+    ],
+    impact: "5+ channels · near real-time alerts · 60–80% time saved",
+  },
+  {
+    title: "Custom MCP Integration Platform",
+    eyebrow: "Enterprise process automation",
+    image: mcpIntegrationImage,
+    summary:
+      "An AI-powered integration platform that lets teams securely query and automate enterprise systems through natural language.",
+    capabilities: [
+      "Custom MCP servers connecting ChatGPT with SharePoint, NetSuite and Primavera P6",
+      "Secure APIs, role-based access control and audit logging for enterprise compliance",
+      "Reusable integration framework to accelerate new-system onboarding",
+    ],
+    impact: "Natural-language workflows · secure system actions · reusable connectors",
+  },
+  {
+    title: "AI-Powered Interview System",
+    eyebrow: "Adaptive hiring intelligence",
+    image: interviewImage,
+    summary:
+      "A data-driven interview system that understands resumes, creates role-specific questions and evaluates candidate responses.",
+    capabilities: [
+      "Resume analysis to extract skills, technologies and project experience",
+      "Adaptive LLM questioning with specialist-panel selection by role",
+      "Response scoring for relevance, accuracy and depth, including follow-up questions",
+    ],
+    impact: "Automated first-round screening · tailored interview flows · less manual effort",
+  },
+];
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Blogs </strong>
-        </h1>
-        <p style={{ color: "white" }}>
-        Here are the blogs I've recently written.
-        </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={IMAGEN}
-              isBlog={true}
-              title="Introduction to Diffusion Models and IMAGEN: The Magic Behind Text-to-Image Generation"
-              // description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://shyampatel1320.medium.com/introduction-to-diffusion-models-and-imagen-the-magic-behind-text-to-image-generation-24221532580d"
-              // demoLink="https://chatify-49.web.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Classification_vs_Clustering}
-              isBlog={true}
-              title="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
-              // description="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
-              ghLink="https://shyampatel1320.medium.com/machine-learning-essentials-the-ultimate-guide-to-classification-and-clustering-b09e6e1a7740"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ensemble_learing}
-              isBlog={true}
-              title="Ensemble Learning : Enhance Your Machine Learning Models Performance to the Next Level"
-              // description="Machine Learning Essentials: The Ultimate Guide to Classification and Clustering"
-              ghLink="https://medium.com/@shyampatel1320/ensemble-learning-enhance-your-models-performance-to-the-next-level-288937958b00"
-              // demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Reinforcement}
-              isBlog={true}
-              title="Getting Started with Reinforcement Learning: A Beginner's Journey"
-              // description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://shyampatel1320.medium.com/getting-started-with-reinforcement-learning-a-beginners-journey-346bb605e850"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={GAN}
-              isBlog={true}
-              title="Exploring Generative AI: A Beginner's Guide to Understand How GANs Model Work"
-              // description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://shyampatel1320.medium.com/exploring-generative-ai-a-beginners-guide-to-understanding-how-gans-work-1b2a323cc402"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={AI_ML_DL}
-              isBlog={true}
-              title="Artificial Intelligence VS Machine Learning VS Deep Learning With Real Life Example"
-              // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://shyampatel1320.medium.com/artificial-intelligence-vs-machine-learning-vs-deep-learning-18bfcebc2aa2"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+        <div className="projects-intro">
+          <p className="projects-kicker">Selected work</p>
+          <h1 className="project-heading">Turning complex workflows into <strong className="purple">AI products</strong></h1>
+          <p>Two enterprise AI platforms designed to turn high-volume, unstructured data into timely decisions.</p>
+        </div>
+        <Row className="case-study-list">
+          {projects.map((project, index) => (
+            <Col xs={12} key={project.title}>
+              <article className={`case-study ${index % 2 ? "case-study--reverse" : ""}`}>
+                <div className="case-study-copy">
+                  <p className="case-study-eyebrow">{project.eyebrow}</p>
+                  <h2>{project.title}</h2>
+                  <p className="case-study-summary">{project.summary}</p>
+                  <ul>
+                    {project.capabilities.map((capability) => <li key={capability}><BsCheck2Circle />{capability}</li>)}
+                  </ul>
+                  <p className="case-study-impact">{project.impact}</p>
+                  <a className="case-study-link" href="mailto:shyampateljob1320@gmail.com?subject=Portfolio%20project%20enquiry">Discuss this work <BsArrowUpRight /></a>
+                </div>
+                <div className="case-study-image-wrap">
+                  <img src={project.image} alt={`${project.title} product dashboard concept`} className="case-study-image" />
+                </div>
+              </article>
+            </Col>
+          ))}
         </Row>
       </Container>
-      <Row className="project-card">
-        <ProjectCard
-        
-          isBlog={true}
-          title="Explore all my blogs, and if you enjoy the content, consider following me for more updates."
-          // description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-          // Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-          ghLink="https://shyampatel1320.medium.com/"
-          // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-        />
-      </Row>
     </Container>
   );
 }

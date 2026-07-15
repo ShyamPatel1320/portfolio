@@ -538,6 +538,57 @@ button:focus {
   padding-top: 10px !important;
 }
 
+.projects-intro, .resume-intro {
+  max-width: 760px;
+  margin: 0 auto 45px;
+  text-align: center;
+  color: #f4efff;
+}
+
+.projects-kicker, .case-study-eyebrow {
+  color: #c588ff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.case-study-list { gap: 28px 0; }
+
+.case-study {
+  align-items: center;
+  background: rgba(20, 13, 40, 0.72);
+  border: 1px solid rgba(190, 123, 255, 0.28);
+  border-radius: 24px;
+  box-shadow: 0 18px 45px rgba(6, 2, 18, 0.25);
+  display: flex;
+  gap: 48px;
+  margin: 0 auto;
+  max-width: 1120px;
+  overflow: hidden;
+  padding: 34px;
+}
+
+.case-study--reverse { flex-direction: row-reverse; }
+.case-study-copy { flex: 1 1 50%; }
+.case-study-copy h2 { color: #fff; font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; margin-bottom: 1rem; }
+.case-study-summary { color: #e5ddf4; font-size: 1.08rem; line-height: 1.7; }
+.case-study-copy ul { list-style: none; margin: 1.5rem 0; padding: 0; }
+.case-study-copy li { align-items: flex-start; color: #e5ddf4; display: flex; gap: 10px; line-height: 1.5; margin-bottom: 0.8rem; }
+.case-study-copy li svg { color: #c588ff; flex: 0 0 auto; margin-top: 0.2rem; }
+.case-study-impact { color: #fff; font-weight: 600; margin-bottom: 1.4rem; }
+.case-study-link { color: #d9a8ff; font-weight: 700; text-decoration: none; }
+.case-study-link:hover { color: #fff; }
+.case-study-image-wrap { flex: 1 1 50%; }
+.case-study-image { border-radius: 16px; box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35); display: block; max-width: 100%; transition: transform 0.35s ease; }
+.case-study:hover .case-study-image { transform: scale(1.025); }
+
+@media (max-width: 767px) {
+  .case-study, .case-study--reverse { flex-direction: column-reverse; gap: 26px; padding: 23px; }
+  .case-study-copy, .case-study-image-wrap { flex-basis: auto; width: 100%; }
+}
+
 /* --------- */
 /* About */
 /* --------- */
@@ -614,6 +665,11 @@ button:focus {
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+.resume-page {
+  margin-bottom: 24px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
 }
 
 .resume-left {

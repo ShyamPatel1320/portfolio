@@ -1,29 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1f419073.css",
-    "main.js": "/portfolio/static/js/main.aac8b4c0.js",
+    "main.css": "/portfolio/static/css/main.23f4a783.css",
+    "main.js": "/portfolio/static/js/main.94e3fee3.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.png": "/portfolio/static/media/about.5a57a9c9efc1405ae12b.png",
     "static/media/home-main.png": "/portfolio/static/media/home-main.55910786f88905342991.png",
-    "static/media/AI_ML_DL.jpg": "/portfolio/static/media/AI_ML_DL.e40cc04fa39d19efa256.jpg",
-    "static/media/Reinforcement.png": "/portfolio/static/media/Reinforcement.efc4c6c4ae9d2faf4a19.png",
+    "static/media/mint-dashboard.png": "/portfolio/static/media/mint-dashboard.4b5740df1d9fd1e97d5a.png",
+    "static/media/call-genie-dashboard.png": "/portfolio/static/media/call-genie-dashboard.c8a228539481de212b22.png",
+    "static/media/mcp-integration-dashboard.png": "/portfolio/static/media/mcp-integration-dashboard.ab170007672b6cd3501f.png",
+    "static/media/ai-interview-dashboard.png": "/portfolio/static/media/ai-interview-dashboard.faa4e3ef154a41566bc7.png",
+    "static/media/Shyam_Patel_AIML_resume.pdf": "/portfolio/static/media/Shyam_Patel_AIML_resume.2220c0a5ab6644c00300.pdf",
     "static/media/shyam.jpg": "/portfolio/static/media/shyam.bf9202c07d7843203522.jpg",
-    "static/media/GAN.jpg": "/portfolio/static/media/GAN.01676a327c0c66893ea7.jpg",
-    "static/media/Shyam_Patel_3.0_resume.pdf": "/portfolio/static/media/Shyam_Patel_3.0_resume.c0f71602b179c5e8083b.pdf",
-    "static/media/Classification_vs_Clustering.jpg": "/portfolio/static/media/Classification_vs_Clustering.dc10c9c78efa047b55ce.jpg",
-    "static/media/Imagen.png": "/portfolio/static/media/Imagen.2b68cbb4a15830889933.png",
-    "static/media/logo.png": "/portfolio/static/media/logo.7ffa1b36639689697dc6.png",
-    "static/media/ensemble_learning.png": "/portfolio/static/media/ensemble_learning.1674cd0b23e372fa2e9f.png",
     "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.1f419073.css.map": "/portfolio/static/css/main.1f419073.css.map",
-    "main.aac8b4c0.js.map": "/portfolio/static/js/main.aac8b4c0.js.map",
+    "main.23f4a783.css.map": "/portfolio/static/css/main.23f4a783.css.map",
+    "main.94e3fee3.js.map": "/portfolio/static/js/main.94e3fee3.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f419073.css",
-    "static/js/main.aac8b4c0.js"
+    "static/css/main.23f4a783.css",
+    "static/js/main.94e3fee3.js"
   ]
 }
