@@ -1,31 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.774b1a88.css",
-    "main.js": "/portfolio/static/js/main.e692db78.js",
+    "main.css": "/portfolio/static/css/main.23f4a783.css",
+    "main.js": "/portfolio/static/js/main.94e3fee3.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/about.png": "/portfolio/static/media/about.5a57a9c9efc1405ae12b.png",
     "static/media/home-main.png": "/portfolio/static/media/home-main.55910786f88905342991.png",
-    "static/media/Shyam_Patel_AIML.pdf": "/portfolio/static/media/Shyam_Patel_AIML.138b3b345dad6df391bc.pdf",
+    "static/media/mint-dashboard.png": "/portfolio/static/media/mint-dashboard.4b5740df1d9fd1e97d5a.png",
+    "static/media/call-genie-dashboard.png": "/portfolio/static/media/call-genie-dashboard.c8a228539481de212b22.png",
+    "static/media/mcp-integration-dashboard.png": "/portfolio/static/media/mcp-integration-dashboard.ab170007672b6cd3501f.png",
+    "static/media/ai-interview-dashboard.png": "/portfolio/static/media/ai-interview-dashboard.faa4e3ef154a41566bc7.png",
+    "static/media/Shyam_Patel_AIML_resume.pdf": "/portfolio/static/media/Shyam_Patel_AIML_resume.2220c0a5ab6644c00300.pdf",
     "static/media/shyam.jpg": "/portfolio/static/media/shyam.bf9202c07d7843203522.jpg",
-    "static/media/shyam_new.jpg": "/portfolio/static/media/shyam_new.2e1a6ca9a6f6460db1bb.jpg",
-    "static/media/Veo3.png": "/portfolio/static/media/Veo3.4f07a475658c9950859c.png",
-    "static/media/Imagen.png": "/portfolio/static/media/Imagen.2b68cbb4a15830889933.png",
-    "static/media/Shyam_Dubai.jpeg": "/portfolio/static/media/Shyam_Dubai.8497b265ff3904bf7105.jpeg",
-    "static/media/logo.png": "/portfolio/static/media/logo.7ffa1b36639689697dc6.png",
-    "static/media/LangChain.jpg": "/portfolio/static/media/LangChain.6b72f20fbcdedeb14542.jpg",
-    "static/media/LLM_Response.png": "/portfolio/static/media/LLM_Response.86d07b54b2ead2f917ca.png",
-    "static/media/A2A.png": "/portfolio/static/media/A2A.ed0e3ffee7bacf0a3c5c.png",
-    "static/media/MCP.png": "/portfolio/static/media/MCP.f216bbbbc7d7ad47ee85.png",
-    "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/portfolio/index.html",
-    "main.774b1a88.css.map": "/portfolio/static/css/main.774b1a88.css.map",
-    "main.e692db78.js.map": "/portfolio/static/js/main.e692db78.js.map",
+    "main.23f4a783.css.map": "/portfolio/static/css/main.23f4a783.css.map",
+    "main.94e3fee3.js.map": "/portfolio/static/js/main.94e3fee3.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.774b1a88.css",
-    "static/js/main.e692db78.js"
+    "static/css/main.23f4a783.css",
+    "static/js/main.94e3fee3.js"
   ]
 }
