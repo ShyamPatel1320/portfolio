@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          {/* <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Shyam Patel </span>
             from <span className="purple"> Gujarat, India.</span>
             <br /> I completed my graduation in Computer Engineering from 
@@ -17,6 +17,30 @@ function AboutCard() {
             Currently, I am working as a <span className="purple">Data Engineer</span> at Ridgeant Technologies. 
             Additionally, I am <span className="purple">writing blogs on Medium </span> about simplifying complex 
             data science concepts and making them easily understandable for everyone 
+            using real-life examples.
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p> */}
+          <p style={{ textAlign: "justify" }}>
+            I am <span className="purple">Shyam Patel </span>
+            from <span className="purple"> Gujarat, India.</span>
+            <br /> I completed my graduation in Computer Engineering from 
+            LDRP Institute of Technology and Research.
+            <br />
+            <br />
+            Currently, I work as a <span className="purple">Lead AIML Developer</span> at Kenexai, 
+            where I design and build <span className="purple">AI/ML pipelines, RAG systems, and agentic AI solutions</span>, 
+            while driving GenAI strategy, enterprise architecture, and AI governance for cross-functional teams.
+            <br />
+            <br />
+            Over the past 4 years, I've architected production-grade Generative AI and NLP systems — 
+            spanning LLM integration, cloud-based ML deployments (AWS/Azure), and automation pipelines — 
+            and led teams through the full lifecycle from design to deployment.
+            <br />
+            <br />
+            Beyond my day job, I am <span className="purple">writing blogs on Medium </span> about simplifying complex 
+            data science and AI concepts, making them easily understandable for everyone 
             using real-life examples.
             <br />
             <br />
