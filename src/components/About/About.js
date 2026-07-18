@@ -28,7 +28,9 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Tilt>
+              <img src={laptopImg} alt="about" className="img-fluid" />
+            </Tilt>
           </Col>
         </Row>
       </Container>
