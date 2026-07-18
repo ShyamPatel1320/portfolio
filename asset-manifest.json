@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.69d90589.css",
-    "main.js": "/portfolio/static/js/main.6bba16b0.js",
+    "main.js": "/portfolio/static/js/main.f74c0fa8.js",
     "static/js/415.4d6acbeb.chunk.js": "/portfolio/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/about.png": "/portfolio/static/media/about.5a57a9c9efc1405ae12b.png",
     "static/media/home-main.png": "/portfolio/static/media/home-main.55910786f88905342991.png",
+    "static/media/about.png": "/portfolio/static/media/about.791c824f8f2184a9d5d2.png",
     "static/media/mint-dashboard.png": "/portfolio/static/media/mint-dashboard.4b5740df1d9fd1e97d5a.png",
     "static/media/call-genie-dashboard.png": "/portfolio/static/media/call-genie-dashboard.c8a228539481de212b22.png",
     "static/media/mcp-integration-dashboard.png": "/portfolio/static/media/mcp-integration-dashboard.ab170007672b6cd3501f.png",
@@ -15,12 +15,12 @@
     "static/media/pre.svg": "/portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/portfolio/index.html",
     "main.69d90589.css.map": "/portfolio/static/css/main.69d90589.css.map",
-    "main.6bba16b0.js.map": "/portfolio/static/js/main.6bba16b0.js.map",
+    "main.f74c0fa8.js.map": "/portfolio/static/js/main.f74c0fa8.js.map",
     "415.4d6acbeb.chunk.js.map": "/portfolio/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69d90589.css",
-    "static/js/main.6bba16b0.js"
+    "static/js/main.f74c0fa8.js"
   ]
 }
